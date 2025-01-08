@@ -2,6 +2,33 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
 
+## Folder Structure
+```
+ANGULAR-V19-BOILERPLATE
+├───public *** Use this folder to host items that will be served directly from the server without any alternation.***
+│   ├───fonts
+│   └───icons
+└───src
+    └───app
+        ├───assets
+        │   ├───icons
+        │   └───images
+        ├───core
+        │   ├───directives     *** Angular Directives ***
+        │   ├───guards         *** Angular guards to role-based implementation ***
+        │   ├───interceptors   *** Http interceptor for API ***
+        │   ├───pipes          *** Angular pipes for data formatting ***
+        │   ├───services       *** Angular Services ***
+        │   └───utils          *** Common functions, constants, enums and models for the application ***
+        ├───environments       *** Since Environment files have been omitted in the newer version of Angular, and yet environment files are used we can use this folder.
+        ├───features           *** Components and pages for the applications, and interfaces can be created in the same folder of component *** 
+        ├───shared             *** Components which are reusables ***
+        ├───styles
+        │   └───themes
+        └───translations       *** Localization for the application ***
+
+```
+
 ## Development server
 
 To start a local development server, run:
